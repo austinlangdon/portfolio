@@ -7,25 +7,17 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-html {
-  height: 100%;
-  overflow-y: hidden;
+.root-container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-body {
-  height: 100vh;
-  top:0; 
-  bottom:0; 
-  right:0; 
-  left:0;
-  overflow-y: hidden;
+
+.top-container {
+  height: 0 275px;
 }
 
-#root-container {
-  height: 100%;
-}
-
-#top-container, #bottom-container {
+.top-container, .bottom-container {
   background-color: #1abc9c;
   background-repeat: no-repeat;
   color: #fff;
@@ -33,18 +25,36 @@ body {
   width: 100%;
 }
 
-#bottom-container {
+.bottom-container {
   min-height: 100%;
 }
 
 
-section {
+.section {
   padding: 20px 0 20px 0;
 }
 
-nav a:link, nav a:visited, nav a:hover {
+.section-heading {
+  padding: 1px;
+  border-bottom: 2px solid lightgrey;
+}
+
+
+nav a:link, nav a:visited {
   color: white;
   text-decoration: none;
   font-size: 1.2em;
   letter-spacing: .5px;
+}
+
+nav a:hover {
+  color: grey;
+  text-decoration: none;
+  font-size: 1.2em;
+  letter-spacing: .5px;
+}
+
+.nav-underline {
+  padding: 3px 0;
+  border-bottom: 1px solid lightgrey;
 }

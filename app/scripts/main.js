@@ -7,3 +7,11 @@ function siteInfo(){
 $('.connect').click(function(){
 	console.log('hi');
 });
+
+$(document).ready(function(){
+	$('li a').hover(function(){
+		$(this).addClass('test');
+	}, function(){
+		$(this).removeClass('test');
+	});
+});

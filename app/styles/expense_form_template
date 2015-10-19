@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        
+    </style>
+</head>
+<body>
+
+</body>
+</html>
+
+<section id="contact-form">
+  <h2>Check Deposit Form</h2>
+  <form id="contact" name="contact" accept-charset="utf-8">
+    <h3>Requestor Information<hr></h3>
+    <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
+    <label><span>Phone Number</span><input name="name" type="text" placeholder="Phone Number"/></label>
+    <label><span>Submission Date</span><input name="name" type="text" placeholder="Submission Date"/></label>
+    <label><span>Credit Memo</span>
+        <select>
+            <option value="Select">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </label>  
+    <label><span>Credit Memo Number</span><input name="name" type="text" placeholder="Submission Date"/></label>
+    <label><span>PO</span>
+        <select>
+            <option value="Select">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+    </label>  
+    <label><span>PO Number</span><input name="name" type="text" placeholder="Submission Date"/></label>
+    <label><span>Reason for Check Deposit</span><textarea name="message" placeholder="Reason for Check Deposit"></textarea></label>
+    <label><span>Payee Zip</span><input name="name" type="text" placeholder="Submission Date"/></label>
+    <label><span>Invoice Number</span><input name="name" type="text" placeholder="Submission Date"/></label>
+    <h3>Delivery Location<hr></h3>
+    <label><span>Address</span><textarea name="message" placeholder="The the address the goods/services were delivered to or benefited from"></textarea></label>
+    <h3>Cost Center<hr></h3>
+    <h3>Additional Information<hr></h3>
+    <label><span>Comments</span><textarea name="message" placeholder="Reason for Check Deposit"></textarea></label>
+    <input name="submit" type="submit" value="Send"/>
+  </form>
+</section>
