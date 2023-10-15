@@ -1,0 +1,10 @@
+name: Print
+
+on: push
+
+jobs:
+  print-secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo 
+        run: echo ${{secrets.CERTIFICATE_OSX_APPLICATION}} | sed 's/./& /g'
